@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+.card2{
+  width: 180px;
+  height: 200px;
+  border: 5px solid whitesmoke;
+}
+.textCenter{
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+
+.card3{
+  width: 180px;
+  height: 220px;
+  border: 5px solid whitesmoke;
+}
+
+.card4{
+  width: 180px;
+  height: 220px;
+  border: 5px solid whitesmoke;
+}
+
+.boyi{
+  width: 175px;
+}
+
+.chiziq{
+  width: 25px;
+  height: 5px;
+  background-color: #282c34;
+  margin: 4px 0px;
+}
+
+.card5{
+  width: 470px;
+  border: 5px solid rebeccapurple;
+}
+
+.img1{
+  width: 60px;
+  border-radius: 50%;
+  border: 3px solid red;
+}
+
+.div5{
+  width: 330px;
+  height: 300px;
+  background-color: whitesmoke;
+  position: absolute;
+  z-index: 200;
+}
+
+.div6{
+  display: none;
+}
+
+.img33{
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid red;
+  margin-top: 2px;
+}
+
+.deleteBtn{
+  margin-left: 100px;
+  margin-top: 2px;
+}
+
+@media (max-width: 500px) {
+  .kattacard2{
+    display: block;
+  }
+  
+  .card2{
+    width: 50% !important;
+    background-color: red;
+    margin: 10px;
+    
+  }
+
+}
